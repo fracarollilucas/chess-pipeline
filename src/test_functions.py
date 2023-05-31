@@ -24,3 +24,6 @@ def test_load():
 
 def test_get_credentials():
     assert True
+
+def get_list_of_usernames():
+    assert True
