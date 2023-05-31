@@ -3,6 +3,14 @@ name: Verificacao de dependencias
 on:
   schedule:
     - cron: "00 12 * * 3"
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags' 
 
 jobs:
   cron:
