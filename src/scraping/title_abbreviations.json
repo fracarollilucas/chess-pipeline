@@ -1,0 +1,12 @@
+{
+    "grandmaster": "GM",
+    "woman grandmaster": "WGM",
+    "international master": "IM",
+    "woman international master": "WIM",
+    "fide master": "FM",
+    "woman fide master": "WFM",
+    "national master": "NM",
+    "woman national master": "WNM",
+    "candidate master": "CM",
+    "woman candidate master": "WCM"
+}
