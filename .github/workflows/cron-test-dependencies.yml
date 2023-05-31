@@ -2,7 +2,7 @@ name: Verificacao de dependencias
 
 on:
   schedule:
-    - cron: "00 19 * * 3"
+    - cron: "00 12 * * 3"
 
 jobs:
   cron:
