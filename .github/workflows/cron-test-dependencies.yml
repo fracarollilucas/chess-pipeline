@@ -34,5 +34,4 @@ jobs:
         pip freeze
     - name: Testa com pytest
       run: |
-        pip install -e ".[test]"
-        pytest
+        pytest --verbose
