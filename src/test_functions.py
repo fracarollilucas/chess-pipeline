@@ -40,3 +40,7 @@ def test_get_list_of_usernames():
 
 def test_create_list_of_players_profiles():
     assert True
+
+
+def test_create_list_of_players_stats():
+    assert True
